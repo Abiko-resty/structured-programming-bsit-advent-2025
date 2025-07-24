@@ -1,0 +1,45 @@
+#breakfast and Lunch Menu program
+#define the breakfast menu items
+breakfat_menu=[
+    "1.pancakes with syrup",
+    "2.scrambled eggs and toast",
+    "3.oatmeal with fruits",
+    "4.coffee or tea",
+    "5.chapati",
+    "6.samosa"
+    "7.milk tea"
+
+]
+
+#define the lunch menu items
+lunch_menu=[
+    "1.grilled chicken sandwich"
+    "2.vegetable salad"
+    "3.peas"
+    "4.beef"
+    "5.rice"
+    "6.matooke"
+    "7.fresh juice"
+]
+
+#display the main menu
+print("welcome to our restaurant!")
+print("please choose a menu to view")
+print("1.breakfast menu")
+print("lunch menu")
+
+#get user choice
+choice=input("enter your choice(1 or 2)")
+
+#display the selected menu
+if choice=="1":
+    print("\n---breakfast_menu---")
+    for item in breakfast_menu:
+elif choice =="2":
+    print("\n---lunch menu---") 
+    for item in lunch_menu:
+        print(item)
+else:
+    print("invalid choice.please enter 1 to 2")     
+
+
